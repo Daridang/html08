@@ -7,8 +7,6 @@
 */
 
 body {
-    width: 960px;
-    margin: 0 auto;
     background-color: #acacac;
 }
 h2 {
@@ -41,6 +39,8 @@ nav {
 
 /* #region main-content */
 .main-content {
+    width: 960px;
+    margin: 0 auto;
     height: 100vh;
     display: flex;
     gap: 2em;

@@ -1,19 +1,37 @@
+/*
+#111
+#acacac
+#4c4c4c
+#bcbcbc
+#d4d4d4
+*/
+
 body {
     width: 960px;
     margin: 0 auto;
+    background-color: #d4d4d4;
 }
 
 /* #region navbar */
 .top-nav {
     display: flex;
     justify-content: space-between;
+    background-color: #4c4c4c;
+    padding: 0px 24px;
 }
 nav {
     display: flex;
-    gap: 1em;
+    align-items: center;
 }
 .navbar a {
     text-decoration: none;
+    color: #d4d4d4;
+    font-size: 18px;
+    padding: 14px;
+}
+.navbar a:hover {
+    color: #111;
+    background-color: #d4d4d4;
 }
 
 /* #endregion navbar */

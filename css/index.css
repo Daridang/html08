@@ -9,7 +9,10 @@
 body {
     width: 960px;
     margin: 0 auto;
-    background-color: #d4d4d4;
+    background-color: #acacac;
+}
+h2 {
+    text-align: center;
 }
 
 /* #region navbar */
@@ -35,3 +38,22 @@ nav {
 }
 
 /* #endregion navbar */
+
+/* #region main-content */
+.main-content {
+    height: 100vh;
+    display: flex;
+    gap: 2em;
+}
+.section-1 {
+    background-color: #d4d4d4;
+    flex-basis: 70%;
+    padding: 20px;
+}
+.aside-1 {
+    background-color: #d4d4d4;
+    flex-basis: 20%;
+    padding: 12px;
+}
+
+/* #endregion main-content */

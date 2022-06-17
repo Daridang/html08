@@ -12,11 +12,16 @@ body {
 h2 {
     text-align: center;
 }
+img {
+    width: 100%;
+}
 
 /* #region navbar */
 .top-nav {
     display: flex;
-    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    justify-content: space-evenly;
     background-color: #4c4c4c;
     padding: 0px 24px;
 }
@@ -41,7 +46,6 @@ nav {
 .main-content {
     width: 960px;
     margin: 0 auto;
-    height: 100vh;
     display: flex;
     gap: 2em;
 }
@@ -49,11 +53,18 @@ nav {
     background-color: #d4d4d4;
     flex-basis: 70%;
     padding: 20px;
+    margin-top: 48px;
+}
+.wenie_img {
+    float: left;
+    width: 50%;
+    margin-right: 20px;
 }
 .aside-1 {
     background-color: #d4d4d4;
     flex-basis: 20%;
     padding: 12px;
+    margin-top: 48px;
 }
 
 /* #endregion main-content */

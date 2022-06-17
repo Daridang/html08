@@ -7,15 +7,21 @@
 */
 
 body {
-    width: 960px;
-    margin: 0 auto;
-    background-color: #d4d4d4;
+    background-color: #acacac;
+}
+h2 {
+    text-align: center;
+}
+img {
+    width: 100%;
 }
 
 /* #region navbar */
 .top-nav {
     display: flex;
-    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    justify-content: space-evenly;
     background-color: #4c4c4c;
     padding: 0px 24px;
 }
@@ -35,3 +41,43 @@ nav {
 }
 
 /* #endregion navbar */
+
+/* #region main-content */
+.main-content {
+    max-width: 960px;
+    min-height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+.section-1 {
+    background-color: #d4d4d4;
+    flex: 3;
+    padding: 20px;
+    margin-top: 48px;
+}
+.wenie_img {
+    float: left;
+    width: 50%;
+    margin-right: 20px;
+}
+.aside-1 {
+    background-color: #d4d4d4;
+    flex: 1;
+    padding: 12px;
+    margin-top: 48px;
+}
+
+/* #endregion main-content */
+
+/* #region footer */
+.footer {
+    background-color: #111;
+    padding: 30px 0px;
+    text-align: center;
+    font-size: 18px;
+    color: #d4d4d4;
+}
+
+/* #endregion footer */

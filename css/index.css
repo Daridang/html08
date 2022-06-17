@@ -44,15 +44,16 @@ nav {
 
 /* #region main-content */
 .main-content {
-    width: 960px;
+    max-width: 960px;
     min-height: 100vh;
     margin: 0 auto;
     display: flex;
+    flex-wrap: wrap;
     gap: 2em;
 }
 .section-1 {
     background-color: #d4d4d4;
-    flex-basis: 70%;
+    flex: 3;
     padding: 20px;
     margin-top: 48px;
 }
@@ -63,7 +64,7 @@ nav {
 }
 .aside-1 {
     background-color: #d4d4d4;
-    flex-basis: 20%;
+    flex: 1;
     padding: 12px;
     margin-top: 48px;
 }
